@@ -1,0 +1,93 @@
+#cartPlace {
+
+    box-sizing: border-box;
+    /* max-width: 30vw; */
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+#cartHeading {
+    font-weight: 400;
+    color: black;
+}
+
+#cartInfo {
+    font-weight: 300;
+    font-size: 16px;
+    color: gray;
+}
+
+/* Next styles for Catalog of Products */
+
+#catalog {
+    margin-top: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+    padding-bottom: 50px;
+
+}
+
+.catalog-card {
+    max-width: 50%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+.catalog-card-image {
+    min-height: 30%;
+    /* max-width: 70%; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.catalog-card-name {
+    max-width: 70%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+.catalog-sept {
+    background: peru;
+    padding: 4px 0;
+    width: 30%;
+    align-self: center;
+}
+
+.catalog-card-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 10px 0;
+}
+
+.catalog-card-anchor {
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #8D5CF6;
+}
